@@ -1,3 +1,4 @@
+// this is to set the value of options needed for the password
 const filterCheck = {
     number: true,
     lower: true,
@@ -5,8 +6,10 @@ const filterCheck = {
     symbol: true
 }
 
+// set the length of the password to be generated
 const length = 23
 
+// the key value pairs of the option values nd thier corresponding function
 const calls = {
     number: number,
     lower: lowerCase,
